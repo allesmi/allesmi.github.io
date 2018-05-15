@@ -1,18 +1,43 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Alexander Miller is a masters' student at the University of Salzburg. He is interested in making applications faster and developers better. The former in particular with regards to main memory and everything that comes with it.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+**Master Student**  
+Department of Computer Sciences  
+University of Salzburg, Austria
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+**Software Developer**  
+IT Department  
+City of Salzburg
 
+## Links
 
-[jekyll-organization]: https://github.com/jekyll
+- [My CV](/assets/cv.pdf)
+- [Github](https://www.github.com/allesmi)
+- [Google Scholar](https://scholar.google.com/citations?user=7UujebgAAAAJ)
+- [LinkedIn](https://www.linkedin.com/in/alexander-miller-60068a139/)
+- [Twitter: @allesmi](https://twitter.com/allesmi)
+
+## Projects
+
+**Stadt Salzburg:Direkt:** Ihr Tipp für unsere Stadt: Sie haben etwas entdeckt, das bearbeitet, erledigt, verbessert gehört? Gratis-Applikation 'salzburg:direkt‘: Von jedem Ort innerhalb des Stadtgebiets eine einfache Meldung mit Foto und exakter GPS-Position vom Mobiltelefon aus absetzen. Die Eingaben werden direkt in den Workflow der Stadtverwaltung integriert, geprüft und bearbeitet. [Website (German only)](http://stadt-salzburg.at/internet/service/egovernment/apps/stadt_salzburg_direkt_378276.aspx)
+
+**ACDC4GC:** A port of ACDC (see below) to Javascript. [ACDC4GC on Github](https://github.com/chromium/ACDC4GC)
+
+**Phoenix:** A self-compiling C compiler written for the course [Compiler Construction](http://cksystemsteaching.github.io/CC-Summer-2013/) together with Daniel Brand. [Phoenix on Github](https://github.com/allesmi/Compiler_Construction_SS2013)
+
+**Akira:** An operating system written for the course [Advanced Operating Systems](http://cksystemsteaching.github.io/AOS-Winter-2014/) together with Daniel Brand. [Akira on Github](https://github.com/allesmi/akira)
+
+## Publications
+
+- Alexander Miller. "madlay: A Trace-Driven Cache Simulator for Address Allocators". Master thesis. University of Salzburg, Austria.
+- Martin Aigner, Thomas Hütter, Christoph M. Kirsch, Alexander Miller, Hannes Payer, and Mario Preishuber. “ACDC-JS: Explorative Benchmarking of JavaScript Memory Management”. In: Proc. Dynamic Languages Symposium (DLS). ACM, 2014 [ACM DL](http://dl.acm.org/citation.cfm?id=2661089">ACM DL</a> <a href="http://acdc.cs.uni-salzburg.at/)
+- Alexander Miller. "ACDC 4 Java: Analyzing Garbage Collection". Bachelor thesis. University of Salzburg, Austria.
+
+## Posters
+
+- Alexander Miller and Mario Preishuber. "Towards cache-optimal address allocation: How fast could your code have run if you had known where to allocate memory?". 5th Google Summit on Compilers and Programming Languages. 2017 [Poster as website](https://mpreis.github.io/5th-google-summit-poster/)
