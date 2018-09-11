@@ -4,11 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-Alexander Miller is a masters' student at the University of Salzburg. He is interested in making applications faster and developers better. The former in particular with regards to main memory and everything that comes with it.
-
-**Master Student**  
-Department of Computer Sciences  
-University of Salzburg, Austria
+Alexander Miller is a software developer based in Salzburg, Austria. He is interested in making applications faster and developers better. The former in particular with regards to main memory and everything that comes with it.
 
 **Software Developer**  
 IT Department  
