@@ -12,6 +12,7 @@ City of Salzburg
 
 ## Links
 
+- [CV](/assets/cv.pdf)
 - [Github](https://www.github.com/allesmi)
 - [Google Scholar](https://scholar.google.com/citations?user=7UujebgAAAAJ)
 - [LinkedIn](https://www.linkedin.com/in/alexander-miller-60068a139/)
