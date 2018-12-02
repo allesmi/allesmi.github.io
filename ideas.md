@@ -11,3 +11,4 @@ Are you aware of existing implementations or are you writing one? Contact me!
 
 - a NeoGeo emulator in WebAssembly
 - an Open311 API in Go
+- classify the type of joke in a sitcom (or any show with a live audience) buy the sound of the laughter
