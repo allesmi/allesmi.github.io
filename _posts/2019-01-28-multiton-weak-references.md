@@ -17,15 +17,15 @@ The multiton in our program uses a dictionary that maps object ids as string to 
 References to these objects are then requested by the client code via a static method on the MyObject class:
 
 ```csharp
-public MyObject getMyObject(string id)
+public static MyObject getMyObject(string id)
 {
-        if (dictionary.ContainsKey(id))
+        if (MyObject.dictionary.ContainsKey(id))
         {
-                return dictionary[id];
+                return MyObject.dictionary[id];
         }
         else {
                 MyObject myObject = new MyObject(id);
-                dictionary[id] = myObject;
+                MyObject.dictionary[id] = myObject;
                 return myObject;
         }
 }
@@ -59,13 +59,13 @@ We change our dictionary to map from string ids to weak references: `Dictionary<
 The method `getMyObject` gets an additional check if the weakly referenced object is still available:
 
 ```csharp
-public MyObject getMyObject(string id)
+public static MyObject getMyObject(string id)
 {
         WeakReference<MyObject> myObjectRef = null;
         MyObject myObject = null;
 
-        if (dictionary.ContainsKey(id)) {
-                myObjectRef = dictionary[id];
+        if (MyObject.dictionary.ContainsKey(id)) {
+                myObjectRef = MyObject.dictionary[id];
 
                 if (myObjectRef.TryGetTarget(out myObject))
                 {
@@ -87,7 +87,7 @@ public MyObject getMyObject(string id)
                 // Create the object for the first time
                 myObject = new MyObject(id);
                 myObjectRef = new WeakReference<MyObject>(myObject);
-                dictionary[id] = myObjectRef;
+                MyObject.dictionary[id] = myObjectRef;
 
                 return myObject;
         }
