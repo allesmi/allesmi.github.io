@@ -74,8 +74,8 @@ public MyObject getMyObject(string id)
                 }
                 else
                 {
-                        // object has been collected in the mean time,
-                        // re-create it.
+                        // object has been collected in the meantime,
+                        // so we have to re-create it.
                         myObject = new MyObject(id);
                         myObjectRef.SetTarget(myObject);
 
@@ -94,8 +94,8 @@ public MyObject getMyObject(string id)
 }
 ```
 
-Note that a strong reference is returned to the caller while dictionary internally only stores weak references.
-Thus if the calling code no longer holds that reference the object is collected at the next collection and the memory leak is avoided.
+Note that a strong reference is returned to the caller while the private dictionary member only stores weak references.
+Thus if the calling code no longer holds that reference the object is freed at the next collection and the memory leak is avoided.
 
 ## Summary
 
@@ -104,4 +104,3 @@ Use the multiton pattern with weak references in dictionaries to allow automatic
 [1]: https://en.wikipedia.org/wiki/Multiton_pattern "Multiton pattern"
 [2]: https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/index ".NET Garbage Collection"
 [3]: https://docs.microsoft.com/en-us/dotnet/api/system.weakreference?view=netframework-4.7.2 ".NET API: WeakReference Class"
-
