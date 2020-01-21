@@ -32,7 +32,8 @@ City of Salzburg
 
 - Alexander Miller. "madlay: A Trace-Driven Cache Simulator for Address Allocators". Master thesis. University of Salzburg, Austria.
 - Martin Aigner, Thomas Hütter, Christoph M. Kirsch, Alexander Miller, Hannes Payer, and Mario Preishuber. “ACDC-JS: Explorative Benchmarking of JavaScript Memory Management”. In: Proc. Dynamic Languages Symposium (DLS). ACM, 2014 [ACM DL](http://dl.acm.org/citation.cfm?id=2661089) and [Website](http://acdc.cs.uni-salzburg.at/)
-- Alexander Miller. "ACDC 4 Java: Analyzing Garbage Collection". Bachelor thesis. University of Salzburg, Austria.
+- Alexander Miller. "ACDC 4 Java: Analyzing Garbage Collection". Bachelor thesis. University of Salzburg, Austria. [PDF](/assets/bac.pdf)
+- Alexander Miller. "madlay: A Trace-Driven Cache Simulator for Address Allocators". Master’s Thesis. University of Salzburg, 2018. [PDF](/assets/msc.pdf)
 
 ## Posters
 
