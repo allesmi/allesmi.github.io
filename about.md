@@ -41,4 +41,4 @@ City of Salzburg
 
 ## Talks
 
-- "Clustering Set in High Dimensions". [10th DB Retreat](https://dbresearch.uni-salzburg.at/seminars/dbretreat/2020/). January 20, 2020 [slides].
+- "Clustering Set in High Dimensions". [10th DB Retreat](https://dbresearch.uni-salzburg.at/seminars/dbretreat/2020/). January 20, 2020 [slides](/assets/db-retreat-2020-slides.pdf).
