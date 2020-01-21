@@ -37,3 +37,7 @@ City of Salzburg
 ## Posters
 
 - Alexander Miller and Mario Preishuber. "Towards cache-optimal address allocation: How fast could your code have run if you had known where to allocate memory?". 5th Google Summit on Compilers and Programming Languages. 2017 [Poster as website](https://mpreis.github.io/5th-google-summit-poster/)
+
+## Talks
+
+- "Clustering Set in High Dimensions". [10th DB Retreat](https://dbresearch.uni-salzburg.at/seminars/dbretreat/2020/). January 20, 2020 [slides].
