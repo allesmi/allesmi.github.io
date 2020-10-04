@@ -1,0 +1,35 @@
+name: Gh-Pages
+
+on: push
+
+jobs:
+  gh-pages:
+    name: Build GH pages
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+          token: ${{ secrets.TOKEN }}
+      
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.75.1'
+      
+      - name: Build
+        run: hugo --minify
+      
+      - name: Copy CNAME
+        run: cp CNAME docs/
+
+      - name: Deploy site
+        run: |
+          git config --global user.name 'Github Action'
+          git config --global user.email 'allesmi@users.noreply.github.com'
+          git add docs/
+          git commit -m "Deploy site for commit ${{ github['sha'] }}"
+          git push

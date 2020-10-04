@@ -1,6 +1,7 @@
 ---
-layout: post
-title: "Why sunbeng?"
+title: "What is a 'sunbeng'"
+date: 2020-10-04T16:30:41+02:00
+draft: false
 ---
 
 This website has the unusual name 'sunbeng'. To understand the _why_ we first look at the _what_.

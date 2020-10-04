@@ -1,0 +1,5 @@
+baseURL = "https://sunbeng.eu/"
+languageCode = "en-us"
+title = "sunbeng"
+publishDir = "docs/"
+theme = "sunbeng-bear"
