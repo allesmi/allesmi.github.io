@@ -16,6 +16,7 @@ and add
 +++
 title = "Page"
 menu = "main"
++++
 ```
 
 to the newly created file.
