@@ -8,6 +8,8 @@ on:
       - 'docs/**'
       - '.github/**'
       - 'README.md'
+    schedule:
+      - cron: '0 0 * * *'
 
 jobs:
   gh-pages:
