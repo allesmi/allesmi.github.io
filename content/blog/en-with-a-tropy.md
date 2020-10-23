@@ -4,8 +4,6 @@ date: 2020-10-23T16:47:33+02:00
 tags: ["fiction", "deutsch"]
 ---
 
-# En with a Tropy
-
 Das Licht im Schlafzimmer wird langsam stärker und beleuchtet einen regungslosen Körper.
 Am Nachttisch steht ein metallener Zylinder.
 Am Fuß des Zylinders ist eine Leuchte in Form des Buchstaben M angebracht, die nun in rot zu leuchten beginnt.  
