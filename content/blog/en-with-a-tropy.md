@@ -2,7 +2,6 @@
 title: "En with a Tropy"
 date: 2020-10-23T16:47:33+02:00
 tags: ["fiction", "deutsch"]
-draft: true
 ---
 
 # En with a Tropy
