@@ -1,9 +1,17 @@
 baseURL = "https://sunbeng.eu/"
 languageCode = "en-us"
+defaultContentLanguage = "en"
+preserveTaxonomyNames = true
+enableRobotsTXT = true
+enableEmoji = true
+theme = "sunbeng-bear"
+enableGitInfo = false
 title = "sunbeng"
 publishDir = "docs/"
-theme = "sunbeng-bear"
 
 [author]
     name = "Alexander Miller"
     email = "alles.mil@gmail.com"
+
+[params]
+    since = "2020"
