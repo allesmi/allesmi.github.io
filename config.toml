@@ -1,12 +1,18 @@
 baseURL = "https://sunbeng.eu/"
-languageCode = "en-us"
-defaultContentLanguage = "en"
-preserveTaxonomyNames = true
-enableRobotsTXT = true
-enableEmoji = true
-theme = "sunbeng-bear"
-enableGitInfo = false
+
+theme = "hugo-bearblog"
+
 title = "sunbeng"
+copyright = "Copyright (c) 2020-2022, Alexander Miller"
+languageCode = "en-us"
+
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+
+enableEmoji = true
+
+enableGitInfo = true
+
 publishDir = "docs/"
 
 [author]
@@ -14,4 +20,6 @@ publishDir = "docs/"
     email = "alles.mil@gmail.com"
 
 [params]
-    since = "2020"
+    description = "sunbeng.eu, the personal blog of Alexander Miller"
+    since = 2020
+

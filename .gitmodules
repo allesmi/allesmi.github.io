@@ -1,3 +1,3 @@
-[submodule "themes/sunbeng-bear"]
-	path = themes/sunbeng-bear
-	url = https://github.com/allesmi/sunbeng-bear.git
+[submodule "themes/hugo-bearblog"]
+	path = themes/hugo-bearblog
+	url = https://github.com/janraasch/hugo-bearblog.git
