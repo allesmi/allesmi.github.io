@@ -1,0 +1,51 @@
+body {
+    box-sizing: border-box;
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #444;
+    padding: 0 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2
+}
+
+/* Header */
+
+header,
+footer {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 5rem;
+    font-variant: small-caps;
+}
+
+header a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    padding: none;
+    display: inline-block;
+}
+
+/* Classes */
+
+.border-bottom {
+    border-bottom: 1px solid #ccc;
+}
