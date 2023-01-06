@@ -12,7 +12,7 @@ I use [git](https://git-scm.com/) to track changes over time, [LaTeX](https://ww
 
 Firstly, create a new directory for your adventure and initialize the git repository.
 
-```
+```bash
 mkdir my-campaign
 cd my-campaign
 git init
@@ -21,7 +21,7 @@ git init
 Apart from the introduction to the campaign, I expect that other written content will follow.
 To keep everything tidy, I will create two directories.
 
-```
+```bash
 mkdir introduction
 mkdir vendor
 ```
@@ -31,7 +31,7 @@ All third-party content will be stored in `vendor`.
 
 Let's add the LaTeX template into the `vendor` directory as a git submodule.
 
-```
+```bash
 git submodule add https://github.com/rpgtex/DND-5e-LaTeX-Template.git vendor/DND-5e-LaTeX-Template
 git add .gitmodules
 git commit -m "Add DND-5e-LaTeX-Template as submodule"
@@ -39,7 +39,7 @@ git commit -m "Add DND-5e-LaTeX-Template as submodule"
 
 Change into the `introduction` folder and create the files `introduction.tex` and `latexmkrc`.
 
-```
+```bash
 cd introduction
 touch introduction.tex
 touch latexmkrc
@@ -57,7 +57,7 @@ ensure_path( 'TEXINPUTS', '../vendor/DND-5e-LaTeX-Template//' );
 
 Now add content to your LaTeX file, like for example:
 
-```
+```tex
 \documentclass[10pt,twoside,twocolumn,openany]{dndbook}
 
 \usepackage[english]{babel}
@@ -89,7 +89,7 @@ latexmk -pvc -pdf introduction.tex
 
 When everything looks good commit your changes.
 
-```
+```bash
 git add latexmkrc
 git add introduction.tex
 git commit -m "Start with introduction"

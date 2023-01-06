@@ -1,8 +1,8 @@
----
-title: "En with a Tropy"
-date: 2020-10-23T16:47:33+02:00
-tags: ["fiction", "deutsch"]
----
++++
+title = "En with a Tropy"
+date = "2020-10-23T16:47:33+02:00"
+tags = ["fiction", "deutsch"]
++++
 
 Das Licht im Schlafzimmer wird langsam stärker und beleuchtet einen regungslosen Körper.
 Am Nachttisch steht ein metallener Zylinder.

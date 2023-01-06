@@ -1,9 +1,9 @@
----
-title: "Die Jagd"
-date: 2020-10-23T16:47:33+02:00
-tags: ["fiction", "deutsch"]
-draft: true
----
++++
+title = "Die Jagd"
+date = "2020-10-23T16:47:33+02:00"
+tags = ["fiction", "deutsch"]
+draft = true
++++
 
 Als er die Augen aufmachte, sah er den Holzkrug vom vergangenen Abend. Seine Kopfschmerzen versicherten ihm, dass es nicht nur dieser Krug war, den er gestern geleert hatte. Er orientierte sich kurz und fand seinen Kopf auf dem grob zusammengenagelten, harten Tisch in einer finsteren Hafenkneipe. Als er sich seinen juckenden Stoppelbart kratzen wollte, bemerkte er ein Stück Pergament in seiner Hand. Eine willkommene Überraschung, denn sonst nützten die Saufkumpanen seine Nickerchen eher zur eigenen Bereicherung. Er verstaute das ungelesene Schriftstück hastig in seiner Manteltasche, warf ein paar Goldstücke auf den Tisch und wankte nach draußen.
 
