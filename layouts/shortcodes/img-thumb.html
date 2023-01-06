@@ -1,0 +1,9 @@
+{{ $img := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ with .Page.Resources.GetMatch $img }}
+<a href="{{ .RelPermalink }}">
+    {{ with .Resize "480x" }}
+    <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
+    {{ end }}
+</a>
+{{ end }}
