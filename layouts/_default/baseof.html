@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+    <meta name="description" content="{{ .Title }}">
+    <meta name="author" content="{{ .Site.Author.Name }}">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+</head>
+<body>
+
+<header>
+    {{- partial "header.html" . -}}
+</header>
+
+<main class="border-bottom">
+    {{ block "main" . }}
+    
+    {{ end }}
+</main>
+
+<footer>
+    {{- partial "footer.html" . -}}
+</footer>
+
+</body>
+</html>

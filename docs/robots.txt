@@ -1,2 +1,1 @@
-User-Agent: *
-Sitemap: https://sunbeng.eu/sitemap.xml
+User-agent: *

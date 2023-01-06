@@ -1,7 +1,5 @@
 baseURL = "https://sunbeng.eu/"
 
-theme = "hugo-bearblog"
-
 title = "sunbeng"
 copyright = "Copyright (c) 2020-2022, Alexander Miller"
 languageCode = "en-us"
@@ -18,8 +16,3 @@ publishDir = "docs/"
 [author]
     name = "Alexander Miller"
     email = "alles.mil@gmail.com"
-
-[params]
-    description = "sunbeng.eu, the personal blog of Alexander Miller"
-    since = 2020
-
