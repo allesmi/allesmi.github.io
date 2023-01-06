@@ -4,7 +4,8 @@ date = "2023-01-06T12:54:01+01:00"
 draft = false
 +++
 
-I like the sound and feel of mechanical keyboards.
+This is my collection of mecanical keyboards.
+I may be willing to sell if you make me an offer.
 
 ## Quisan Magicforce 68
 
@@ -12,7 +13,8 @@ I like the sound and feel of mechanical keyboards.
 
 - Keyboard: Quisan Magicforce 68
 - Switches: Outemu Brown (stock)
-- Keycaps: Tai-Hao Miami 
+- Keycaps: Tai-Hao Miami
+- Deskmat for GMK Infernal by [Sandun](https://www.instagram.com/sandun_keycap_artist/?hl=en)
 
 ## Vortex Cypher
 
@@ -26,15 +28,15 @@ I like the sound and feel of mechanical keyboards.
 
 {{< img-thumb src="sofle.jpg" alt="Sofle" >}}
 
-- Keyboard: Sofle
+- Keyboard: [Sofle](https://github.com/josefadamcik/SofleKeyboard)
 - Switches: Cherry MX Clear
 - Keycaps: XDAS Profile and PBT Keycaps DSA Blank Yellow, both from AliExpress
 
-## Romeo
+## Romeo 40%
 
 {{< img-thumb src="romeo.jpg" alt="Romeo" >}}
 
-- Keyboard: Romeo
+- Keyboard: Romeo 40%
 - Switches: Cherry MX Red
 - Keycaps: Tai-Hao Dark Miami
 
