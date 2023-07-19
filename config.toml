@@ -13,6 +13,9 @@ enableGitInfo = true
 
 publishDir = "docs/"
 
+[minify]
+    minifyOutput = true
+
 [author]
     name = "Alexander Miller"
     email = "alles.mil@gmail.com"
