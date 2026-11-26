@@ -1,6 +1,6 @@
 +++
 title = "Mechanical Keyboards"
-date = "2023-01-06T12:54:01+01:00"
+date = "2026-11-26T12:54:01+01:00"
 draft = false
 +++
 
@@ -48,7 +48,7 @@ I may be willing to sell if you make me an offer.
 - Switches: Gazzew Boba U4T
 - Keycaps: GMK Nautilus 2
 
-##  Zoom 65
+## Zoom 65
 
 {{< img-thumb src="zoom-65.jpg" alt="Zoom 65 with Prism rotary encoder" >}}
 
