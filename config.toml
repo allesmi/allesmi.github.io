@@ -2,7 +2,7 @@ baseURL = "https://sunbeng.eu/"
 
 title = "sunbeng"
 copyright = "Copyright (c) 2026, Alexander Miller"
-languageCode = "en-us"
+locale = "en-US"
 
 enableRobotsTXT = true
 defaultContentLanguage = "en"
@@ -16,6 +16,6 @@ publishDir = "docs/"
 [minify]
     minifyOutput = true
 
-[author]
+[params.author]
     name = "Alexander Miller"
     email = "alles.mil@gmail.com"
