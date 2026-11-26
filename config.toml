@@ -1,7 +1,7 @@
 baseURL = "https://sunbeng.eu/"
 
 title = "sunbeng"
-copyright = "Copyright (c) 2023, Alexander Miller"
+copyright = "Copyright (c) 2026, Alexander Miller"
 languageCode = "en-us"
 
 enableRobotsTXT = true
